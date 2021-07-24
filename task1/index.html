@@ -1,0 +1,163 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript">
+
+function scrollto(div)
+{
+ $('html,body').animate(
+ {
+  scrollTop: $("#"+div).offset().top
+ },'slow');
+}
+</script>
+</head>
+<body>
+
+<div id="header">
+ <li id="site_name">Modern UI</li>
+ <li onclick="scrollto('home');"><a href="#home" style="text-decoration: none;">HOME</a></li>
+ <li onclick="scrollto('about');"><a href="#about" style="text-decoration: none;">ABOUT</a></li>
+ <li><a href="#features" style="text-decoration: none;">FEATURES</a></li>
+ <li><a href="#mainp" style="text-decoration: none;">PRICING</a></li>
+ <li onclick="scrollto('features');"><a href="#contact" style="text-decoration: none;">CONTACT</a></li>
+</div>
+
+<div id="home">
+ <h1>Discover the world’s top designers & creatives!</h1><br>
+ <p>
+    Modern UI is the leading destination to find & showcase creative work and home to the world's best design professionals.
+    Your website can be the most important client generator your business can have, and must place the primary emphasis on bringing in new clients and making additional services available to existing clients through increased awareness of all the services you offer. Providing them with the tools they
+     need to do business with you in an easy and enjoyable way will increase your website conversion and bring you the kind of success you seek.</p></div>
+
+<div id="about">
+    <h1>About Us</h1><br>
+ <p>Now you can build simple and beautiful website quickly.You are just a click away! Just buy one of our plans and design your website out of the world!
+ ModernUI is a complete destination to design Website with Best, Fast and Easy Methods for those who is a novice and wants to be the Xpert in Web Development.\
+ If you are a business owner, your website is absolutely one of the most important tools you have in your arsenal to get more - and better - clients and customers. So what separates a good website from a bad website, or a good one from a great one? Here are 10 qualities that a great website will need. </p>
+ </div>
+<br>
+<div id="features">
+    <div class="container px-4 py-5" id="icon-grid">
+        <h2 class="pb-2 border-bottom">Features</h2>
+    
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"/></svg>
+            <div>
+              <h4 class="fw-bold mb-0">Looks Elegant</h4>
+              <p>Modern UI presents you with the latest and elegant style of designs.People are visually oriented creatures, and utilizing great graphics is a good way to make your website more appealing. Your website has about 1/10th of a second to impress your visitor.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"/></svg>
+            <div>
+              <h4 class="fw-bold mb-0">Navigation</h4>
+              <p>The website design should be easy to navigate and the menu items should easily accessible from any page. The viewer should always know exactly where they are on the website and have easy access to where they would like to be. </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"/></svg>
+            <div>
+              <h4 class="fw-bold mb-0">Interaction</h4>
+              <p>A truly effective website design engages your visitors immediately and continues to hold their attention through EVERY page, as well as inﬂuences them to contact you.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg>
+            <div>
+              <h4 class="fw-bold mb-0">Branding</h4>
+              <p>Your website should be a direct reﬂection of your business and your brand. Your visitor should immediately make a visual connection between your logo, print material, and brick-and-mortar location. A website that does this not only contributes to the memorability of your branding</p>
+            </div>
+          </div>
+          </div>
+      </div>
+    
+
+</div>
+
+
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center" id="mainp">
+        <div class="col" >
+          <div class="card mb-4 rounded-3 shadow-sm" id="firs">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Free</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>10 users included</li>
+                <li>2 GB of storage</li>
+                <li>Email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-outline-primary" id="btn">Sign up for free</button>
+            </div>
+          </div>
+        </div>
+        <div class="col" >
+            <div class="card mb-4 rounded-3 shadow-sm" id="firs">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Free</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$59<small class="text-muted fw-light">/mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>50 users included</li>
+                    <li>25 GB of storage</li>
+                    <li>Email support</li>
+                    <li>Help center access</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-outline-primary" id="btn">Sign up</button>
+                </div>
+              </div>
+          </div>
+          <div class="col" >
+            <div class="card mb-4 rounded-3 shadow-sm" id="firs">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Free</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$109<small class="text-muted fw-light">/mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>100 users included</li>
+                    <li>100 GB of storage</li>
+                    <li>Email support</li>
+                    <li>Help center access</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-outline-primary" id="btn">Sign up</button>
+                </div>
+              </div>
+          </div>
+    </div>
+    
+    <div class="container1" id="contact">
+        <form action="action_page.php">
+      
+          <input type="text" id="fname" name="firstname" placeholder="First name">
+      
+          <input type="text" id="lname" name="lastname" placeholder="Last name">
+      
+          <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="uganda">Uganda</option>
+          </select>
+      <br><br>
+          <textarea id="subject" name="subject" placeholder="Leave a message" style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+
+</body>
+<footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+      <span class="text-muted">LGMVIP JUNE &copy 2021, Created by TrickyM</span>
+    </div>
+  </footer>
+</html>
